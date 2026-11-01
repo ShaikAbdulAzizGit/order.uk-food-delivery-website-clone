@@ -1,0 +1,443 @@
+/* Main Navbar  */
+
+section {
+    width: 95vw !important;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95vw;
+}
+
+#navbar img {
+    height: 36px;
+}
+
+#menu-btn i {
+    font-size: 36px;
+}
+
+/* Hero section  */
+
+.hero::before {
+    display: none;
+}
+
+.hero {
+    background-color: #E2E2E2;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero * {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-text>p:first-child {
+    font-size: 12px;
+}
+
+.headings {
+    font-size: 15px;
+    text-align: center;
+}
+
+#user-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0;
+}
+
+#user-search>div {
+    justify-content: space-between;
+    width: 250px;
+}
+
+#user-search input {
+    width: 100%;
+    padding: 18px 20px;
+}
+
+#user-search button {
+    font-size: 30px;
+    background-color: #FC8A06;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+.hero-text {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Deals Section  */
+
+
+.mobile-deals-nav {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-deals-nav>p {
+    font-size: 13px;
+}
+
+.mobile-deals-nav>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 10px 5px;
+}
+
+.mobile-deals-nav>div p {
+    font-size: 12px;
+}
+
+.deal-item {
+    height: auto;
+}
+
+.deal-item>div:first-child {
+    background-image: var(--bg-img);
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.deals-container>div>div:first-child>p {
+    position: absolute;
+    padding: 10px 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    right: 15px;
+}
+
+.deals-container>div {
+    padding: 0;
+}
+
+.deals-container {
+    overflow-x: scroll;
+}
+
+.res-name {
+    color: black;
+    font-size: 15px;
+}
+
+.res-details-mobile {
+    padding: 10px;
+}
+
+/* Category section  */
+
+.categories {
+    background-color: #D9D9D9;
+    width: 100vw !important;
+    padding: 25px 10px 10px 10px;
+    box-sizing: border-box;
+}
+
+.category-items-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    place-items: center;
+}
+
+.category-item>div p:first-child {
+    color: #FC8A06;
+}
+
+.category-item>div p:nth-child(2) {
+    color: black;
+}
+
+
+.category-item {
+    max-width: 170px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.category-item img {
+    height: 170px;
+}
+
+
+.category-item>div {
+    font-size: 13px;
+}
+
+
+/* Restaurant Section  */
+
+.restaurants {
+    padding-top: 25px;
+}
+
+.restaurants-container {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+.restaurant-item {
+    flex-shrink: 0;
+}
+
+.restaurant-name {
+    font-size: 13px;
+}
+
+.restaurant-item img {
+    height: 115px;
+}
+
+
+/* Ad section  */
+
+.ad {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 65vh;
+    padding-top: 35px;
+}
+
+.ad h1 {
+    text-align: center;
+}
+
+.ad h1 img {
+    height: 25px;
+}
+
+.ad h1 {
+    font-size: 25px;
+}
+
+.blk-container {
+    background: none;
+    color: white;
+    font-size: 20px;
+    padding: 0;
+}
+
+.blk-container span:last-child {
+    color: black;
+}
+
+.ad>p {
+    font-size: 13px;
+    margin-right: 0;
+}
+
+.downloads {
+    margin: 0;
+}
+
+.downloads span {
+    padding: 5px 11px;
+    border: 5px;
+}
+
+.downloads span p:first-child {
+    font-size: 9px;
+    letter-spacing: 0;
+}
+
+.downloads span p:last-child {
+    letter-spacing: 0;
+    font-size: 13px;
+}
+
+.downloads span img {
+    height: 30px;
+}
+
+
+/* Work with us section  */
+.work-with-us {
+    flex-direction: column;
+    width: 95vw;
+    padding: 10px;
+    gap: 25px;
+}
+
+.work-with-us .item {
+    width: 346px;
+    height: 219px;
+}
+
+.work-with-us .item>p {
+    padding: 8px 10px 10px;
+    font-size: 11px;
+}
+
+.work-with-us .item {
+    padding: 0;
+}
+
+.work-with-us .item div {
+    margin-left: 36px;
+    margin-top: 55px;
+}
+
+.work-with-us .item h2 {
+    font-size: 25px;
+}
+
+.get-started-btn {
+    padding: 8px 26px;
+    margin-top: 0;
+}
+
+
+
+/* About us section  */
+
+.about-us {
+    padding: 0;
+    height: auto;
+}
+
+.about-us::before {
+    background: none;
+}
+
+.about-us h2 {
+    font-size: 19px;
+    margin: auto;
+}
+
+.q-container {
+    flex-direction: column;
+    padding: 0;
+}
+
+.questions {
+    padding: 0 10px;
+}
+
+.q-right {
+    background-color: #03081F;
+    padding: 40px 25px 20px;
+}
+
+.q-right .items {
+    flex-direction: column;
+}
+
+.q-right>div:last-child>p {
+    text-align: center;
+    color: white;
+    display: inline;
+}
+
+.q-right>div:last-child {
+    text-align: center;
+}
+
+
+
+/* Numbering section  */
+
+.numbering {
+    flex-direction: column;
+    position: relative;
+}
+
+.numbering .item:not(:last-child)::after {
+    content: "";
+    background-color: white;
+    width: 60%;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    top: 125px;
+    margin: auto;
+}
+
+
+/* Footer section  */
+
+.footer>* {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    flex-direction: column;
+    padding: 30px 15px 20px;
+    width: 100vw !important;
+}
+
+.footer .f-child-3 {
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.footer .f-child-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .f-child-1>p {
+    text-align: center;
+}
+
+.user-input-footer {
+    margin-left: -23px;
+}
+
+/* Footer section  */
+
+footer {
+    padding: 15px 10px;
+    justify-content: center;
+}
+
+
+/* utility Classes  */
+
+.desktop-only {
+    display: none !important;
+}
+
+.mobile-only {
+    display: block !important;
+}
+
+.h-secondary {
+    font-size: 13px;
+}

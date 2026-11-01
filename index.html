@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/phone.css" media="screen and (max-width:480px)">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Order.uk | Food Delivery</title>
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <img src="assets/logo.png" alt="" id="logo">
+        <ul class="desktop-only">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#home">Browse Menu</a></li>
+            <li><a href="#home">Special Offers</a></li>
+            <li><a href="#home">Restaurants</a></li>
+            <li><a href="#home">Track Order</a></li>
+            <li><a href="" id="login-btn"><img src="assets/male_user.svg" alt="">Login/Signup</a></li>
+        </ul>
+        <button id="menu-btn" class="mobile-only"><i class="ri-menu-line"></i></button>
+    </nav>
+    <section class="hero">
+        <div class="desktop-only popup-box box-1">
+            <p>now</p>
+            <img src="assets/logo.png" alt="">
+            <p class="font-semibold">We’ve Received your order!</p>
+            <p class="font-regular">Awaiting Restaurant acceptance</p>
+        </div>
+        <div class="desktop-only popup-box box-2">
+            <p>now</p>
+            <img src="assets/logo.png" alt="">
+            <p class="font-semibold">We’ve Received your order!</p>
+            <p class="font-regular">Awaiting Restaurant acceptance</p>
+        </div>
+        <div class="desktop-only popup-box box-3">
+            <p>now</p>
+            <img src="assets/logo.png" alt="">
+            <p class="font-semibold">We’ve Received your order!</p>
+            <p class="font-regular">Awaiting Restaurant acceptance</p>
+        </div>
+
+        <div class="hero-text">
+            <p class="font-regular">Order Restaurant food, takeaway and groceries.</p>
+            <div class="headings font-semibold">
+                <h1>Feast Your Senses,</h1>
+                <h1 class="orange">Fast and Fresh</h1>
+            </div>
+            <div id="user-search">
+                <p class="font-regular">Enter a postcode to see what we deliver</p>
+                <div>
+                    <input type="text" placeholder="e.g. EC4R 3TE">
+                    <button type="button" id="search-btn" class="font-bold desktop-only">Search</button>
+                    <button type="button" class="mobile-only"><i class="ri-arrow-right-circle-fill"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="deals">
+        <div class="desktop-only">
+            <h2 class="h-secondary font-bold">Up to -40% 🎊 Order.uk exclusive deals</h2>
+            <nav class="deals-navbar font-regular">
+                <ul>
+                    <li><a href="">Vegan</a></li>
+                    <li><a href="">Sushi</a></li>
+                    <li><a href="">Pizza & Fast food</a></li>
+                    <li><a href="">others</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="mobile-deals-nav mobile-only">
+            <p class="font-bold">Up to -40% Discount Offers 🎊 </p>
+            <div>
+                <i class="ri-arrow-down-circle-fill"></i>
+                <p class="font-regular">Pizza & Fast Food</p>
+            </div>
+        </div>
+        <div class="deals-container">
+            <div class="deal-item">
+                <div style="--bg-img: url('../assets/deals/deal-1.png');">
+                    <p class="font-bold res-discount">-40%</p>
+                    <div class="res-details desktop-only">
+                        <p class="font-medium orange">Restaurant</p>
+                        <p class="font-bold res-name">Chef Burgers London</p>
+                    </div>
+                </div>
+                <div class="res-details-mobile mobile-only">
+                    <p class="font-medium orange">Restaurant</p>
+                    <p class="font-bold res-name">Chef Burgers London</p>
+                </div>
+            </div>
+            <div class="deal-item">
+                <div style="--bg-img: url('../assets/deals/deal-2.png');">
+                    <p class="font-bold res-discount">-40%</p>
+                    <div class="res-details desktop-only">
+                        <p class="font-medium orange">Restaurant</p>
+                        <p class="font-bold res-name">Grand Ai Cafe London</p>
+                    </div>
+                </div>
+                <div class="res-details-mobile mobile-only">
+                    <p class="font-medium orange">Restaurant</p>
+                    <p class="font-bold res-name">Grand Ai Cafe London</p>
+                </div>
+            </div>
+            <div class="deal-item">
+                <div style="--bg-img: url('../assets/deals/deal-2.png');">
+                    <p class="font-bold res-discount">-40%</p>
+                    <div class="res-details desktop-only">
+                        <p class="font-medium orange">Restaurant</p>
+                        <p class="font-bold res-name">Butterbrot Caf’e London</p>
+                    </div>
+                </div>
+                <div class="res-details-mobile mobile-only">
+                    <p class="font-medium orange">Restaurant</p>
+                    <p class="font-bold res-name">Butterbrot Caf’e London</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="categories">
+        <h2 class="h-secondary font-bold">Order.uk Popular Categories 🤩</h2>
+
+        <div class="category-items-list">
+            <div class="category-item">
+                <img src="assets/categories/category-1.png" alt="">
+                <div>
+                    <p class="font-bold">Burgers & Fast food</p>
+                    <p class="orange font-regular">21 Restaurants</p>
+                </div>
+            </div>
+            <div class="category-item">
+                <img src="assets/categories/category-2.png" alt="">
+                <div>
+                    <p class="font-bold">Salads</p>
+                    <p class="orange font-regular">32 Restaurants</p>
+                </div>
+            </div>
+            <div class="category-item">
+                <img src="assets/categories/category-3.png" alt="">
+                <div>
+                    <p class="font-bold">Pasta & Casuals</p>
+                    <p class="orange font-regular">4 Restaurants</p>
+                </div>
+            </div>
+            <div class="category-item">
+                <img src="assets/categories/category-4.png" alt="">
+                <div>
+                    <p class="font-bold">Pizza</p>
+                    <p class="orange font-regular">32 Restaurants</p>
+                </div>
+            </div>
+            <div class="category-item">
+                <img src="assets/categories/category-5.png" alt="">
+                <div>
+                    <p class="font-bold">Breakfast</p>
+                    <p class="orange font-regular">4 Restaurants</p>
+                </div>
+            </div>
+            <div class="category-item">
+                <img src="assets/categories/category-6.png" alt="">
+                <div>
+                    <p class="font-bold">Soups</p>
+                    <p class="orange font-regular">32 Restaurants</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="restaurants">
+        <h2 class="h-secondary font-bold">Popular Restaurants</h2>
+        <div class="restaurants-container">
+            <div class="restaurant-item">
+                <img src="assets/restaurants/res-1.png" alt="">
+                <div class="restaurant-name font-bold">McDonald’s London</div>
+            </div>
+            <div class="restaurant-item">
+                <img src="assets/restaurants/res-2.png" alt="">
+                <div class="restaurant-name font-bold">Papa Johns</div>
+            </div>
+            <div class="restaurant-item">
+                <img src="assets/restaurants/res-3.png" alt="">
+                <div class="restaurant-name font-bold">KFC West London</div>
+            </div>
+            <div class="restaurant-item">
+                <img src="assets/restaurants/res-4.png" alt="">
+                <div class="restaurant-name font-bold">Texas Chicken</div>
+            </div>
+            <div class="restaurant-item">
+                <img src="assets/restaurants/res-5.png" alt="">
+                <div class="restaurant-name font-bold">Burger King</div>
+            </div>
+            <div class="restaurant-item">
+                <img src="assets/restaurants/res-6.png" alt="">
+                <div class="restaurant-name font-bold">Shaurma</div>
+            </div>
+        </div>
+    </section>
+    <section class="ad">
+        <h1 class="font-bold"><img src="assets/logo.png" alt="">ing is more</h1>
+        <div class="blk-container">
+            <span class="font-medium orange underline">Personalized</span>
+            <span class="font-medium">& Instant</span>
+        </div>
+        <p class="font-regular">Download the Order.uk app for faster ordering</p>
+        <div class="downloads">
+            <span>
+                <img src="assets/social-media/apple.svg" alt="">
+                <div>
+                    <p class="">Download on the</p>
+                    <p class="font-regular">App Store</p>
+                </div>
+
+            </span>
+            <span>
+                <img src="assets/social-media/playstore.svg" alt="">
+                <div>
+                    <p class="">Download on the</p>
+                    <p class="font-regular">Play Store</p>
+                </div>
+            </span>
+        </div>
+    </section>
+
+    <section class="work-with-us">
+        <div class="item" style="--bg-img: url('../assets/work-with-us/work-1.png');">
+            <p class="font-bold">Earn more with lower fees</p>
+
+            <div>
+                <p class="font-regular orange">Signup as a business</p>
+                <h2 class="font-bold">Patner with us</h2>
+                <button class="get-started-btn font-medium  ">Get Started</button>
+            </div>
+        </div>
+        <div class="item" style="--bg-img: url('../assets/work-with-us/work-2.png');">
+            <p class="font-bold">Avail exclusive perks</p>
+
+            <div>
+                <p class="font-regular orange">Signup as a rider</p>
+                <h2 class="font-bold">Ride with us</h2>
+                <button class="get-started-btn font-medium  ">Get Started</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us">
+        <div>
+            <h2 class="h-secondary font-bold">Know more about us!</h2>
+            <nav class="about-us-navbar font-regular desktop-only">
+                <ul>
+                    <li><a href="">Frequent Questions</a></li>
+                    <li><a href="">Who we are ?</a></li>
+                    <li><a href="">Partner Program</a></li>
+                    <li><a href="">Help and support</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="q-container">
+            <div class="questions">
+                <ul>
+                    <li><a href="" class="font-bold">How does Order.UK work?</a></li>
+                    <li><a href="" class="font-bold">What payment methods are accepted?</a></li>
+                    <li><a href="" class="font-bold">Can I track my order in real-time?</a></li>
+                    <li><a href="" class="font-bold">Are there any special discounts or promotions available?</a></li>
+                    <li><a href="" class="font-bold">Is Order.UK available in my area?</a></li>
+                </ul>
+            </div>
+            <div class="q-right">
+                <div class="items">
+                    <div class="item">
+                        <p class="font-bold">Place an Order!</p>
+                        <img src="assets/about-us/about-1.png" alt="">
+                        <div>
+                            <p class="font-medium">Place order through our</p>
+                            <p class="font font-medium">website or Mobile app</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p class="font-bold">Place an Order!</p>
+                        <img src="assets/about-us/about-2.png" alt="">
+                        <div>
+                            <p class="font-medium">Your can track your order</p>
+                            <p class="font font-medium">status with delivery time</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p class="font-bold">Place an Order!</p>
+                        <img src="assets/about-us/about-3.png" alt="">
+                        <div>
+                            <p class="font-medium">Receive your order at a</p>
+                            <p class="font font-medium">lighting fast speed!</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p class="font-regular text-center">Order.UK simplifies the food ordering process. Browse through
+                        our diverse menu</p>
+                    <p class="font-regular text-center">select your favorite dishes, and proceed to checkout. Your
+                        delicious meal will be</p>
+                    <p class="font-regular text-center">on its way to your doorstep in no time!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="numbering">
+        <div class="item">
+            <p class="font-light">546+</p>
+            <p class="font-bold">Registered Riders</p>
+        </div>
+        <div class="item">
+            <p class="font-light">789,900+</p>
+            <p class="font-bold">Orders Delivered</p>
+        </div>
+        <div class="item">
+            <p class="font-light">690+</p>
+            <p class="font-bold">Restaurants Partnered</p>
+        </div>
+        <div class="item">
+            <p class="font-light">17,457+</p>
+            <p class="font-bold">Food items</p>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="f-child-1">
+            <img src="assets/logo.png" alt="">
+            <div class="downloads">
+                <span>
+                    <img src="assets/social-media/apple.svg" alt="">
+                    <div>
+                        <p class="">Download on the</p>
+                        <p class="font-regular">App Store</p>
+                    </div>
+
+                </span>
+                <span>
+                    <img src="assets/social-media/playstore.svg" alt="">
+                    <div>
+                        <p class="">Download on the</p>
+                        <p class="font-regular">Play Store</p>
+                    </div>
+                </span>
+            </div>
+            <p class="font-regular">Company # 490039-445, Registered with House of companies.</p>
+        </div>
+
+        <div class="f-child-2">
+            <p class="font-bold">Get Exclusive Deals in your Inbox</p>
+            <div class="user-input-footer"> <input type="text" placeholder="e.g. EC4R 3TE">
+                <button type="button" id="subscribe-btn" class="font-bold">Subscribe</button>
+            </div>
+            <p class="font-regular">we wont spam, read our email policy</p>
+            <div class="social-media">
+                <img src="assets/social-media/Facebook.svg" alt="">
+                <img src="assets/social-media/Instagram.svg" alt="">
+                <img src="assets/social-media/TikTok.svg" alt="">
+                <img src="assets/social-media/Snapchat.svg" alt="">
+            </div>
+        </div>
+        <div class="f-child-3">
+            <ul>
+                <li><a href="" class="font-bold">Legal Pages</a></li>
+                <li><a href="" class="font-regular">Terms and conditions</a></li>
+                <li><a href="" class="font-regular">Privacy</a></li>
+                <li><a href="" class="font-regular">Cookies</a></li>
+                <li><a href="" class="font-regular">Modern Slavery Statement</a></li>
+            </ul>
+            <ul>
+                <li><a href="" class="font-bold">Important Links</a></li>
+                <li><a href="" class="font-regular">Get help</a></li>
+                <li><a href="" class="font-regular">Add your restaurant</a></li>
+                <li><a href="" class="font-regular">Sign up to deliver</a></li>
+                <li><a href="" class="font-regular">Create a business account</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p class="font-regular">Order.uk Copyright 2024, All Rights Reserved.</p>
+        <ul class="desktop-only">
+            <li><a href="" class="font-regular">Privacy Policy</a></li>
+            <li><a href="" class="font-regular">Terms</a></li>
+            <li><a href="" class="font-regular">Pricing</a></li>
+            <li>
+                <p class="font-regular">Do not sell or share my personal information</p>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
