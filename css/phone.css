@@ -435,7 +435,7 @@ footer {
 }
 
 .mobile-only {
-    display: block !important;
+    display: block;
 }
 
 .h-secondary {
